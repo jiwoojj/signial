@@ -1,0 +1,334 @@
+
+
+/* 작은 데스크탑 크기 */
+@media screen and (max-width:1280px){
+
+
+     
+    .package_wrap_box{
+        width:14%;
+    }
+
+
+    .package_wrap_top{
+        width:100%;
+        height:35vh;
+        border-bottom:1px solid #333;
+    }
+    
+
+    .att_wrap .place ul {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+
+
+    .att_wrap .place ul li {
+        width: 45%;
+        position: relative;
+        cursor: pointer;
+        margin:3vh 0;
+    }
+
+
+}
+
+
+/* 큰 태블릿 크기 */
+@media screen and (max-width:1028px){
+
+    .package_wrap_top {
+        width: 100%;
+        height: 30vh;
+        border-bottom: 1px solid #333;
+    }
+
+
+    .dining {
+        width: 100%;
+        height: auto;
+        padding:0;
+        margin-top: 10vh;
+    }
+
+    .dining_wrap {
+        width: 100%;
+        display: block;
+        height: 80vh;
+    }
+
+
+    .dining_text {
+        width: 100%;
+        padding:0;
+        text-align:center;
+    }
+
+
+    .dining_text p {
+       display:none;
+    }
+
+
+    .dining_button {
+       display:none;
+    }
+
+
+
+    .dining_img {
+        width: 90%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        margin-left:0;
+        margin:0 auto;
+        margin-top:4vh;
+    }
+
+
+    .dining_img li {
+        position: absolute;
+        width: 100%;
+        margin:0 auto;
+        height: 100%;
+    }
+
+
+    .wellness_right_wrap .title h1 {
+        font-size: 30px;
+    }
+
+
+    .wellness_right_wrap .img_wrap .text p {
+        font-size: 15px;
+    }
+
+
+    .wellness_left .text .top {
+      display:none;
+    }
+
+    .wellness_left .text .btm {
+        margin-top:3vh;
+    }
+
+
+    .att_wrap .place ul .overlay p {
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:992px){
+
+    .package_wrap_box .text p{
+        display:none;
+    }
+
+
+    .package_wrap_top {
+       border:none;
+       height:auto;
+    }
+
+
+    .package_wrap_top p {
+        text-align:center;
+    }
+
+
+    .dining_wrap {
+        height:auto;
+    }
+
+
+    .dining_img {
+       display:none;
+    }
+
+
+    .dining_text p {
+        display: block;
+        margin-top:3vh;
+    }
+
+
+    .dining_button {
+        display: block;
+        margin-top:3vh;
+     }
+
+
+     .dining {
+        width: 100%;
+        height:auto;
+        border-top:1px solid #333;
+        margin:0;
+        padding:10vh 0;
+    }
+ 
+
+
+    .wellness {
+        width: 100%;
+        margin-top:0;
+    }
+
+
+
+    .wellness_wrap {
+        width: 100%;
+        height:auto;
+        display:block;
+    }
+
+
+    .wellness_left {
+        width: 100%;
+        height: 100%;
+        background: url(../img/mainpage/wellness/left.webp) no-repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+
+    .wellness_left .text {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding:0;
+        text-align:center;
+        padding:8vh 0;
+    }
+
+
+
+    .wellness_right {
+        width: 100%;
+        height: 80vh;
+    }
+
+
+    .wellness_right_wrap .img_wrap .text p {
+        font-size: 20px;
+    }
+
+
+
+ 
+
+
+
+ 
+
+}
+
+
+
+
+
+
+/* 큰 모바일 크기  */
+@media screen and (max-width:768px){
+
+
+    /* package */
+    .package .title span {
+        display:none;
+    }
+
+    .package_wrap {
+        width: 300%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+    /* dining */
+    .dining_text p {
+        display:none;
+    }
+
+
+
+    /* wellness */
+    .wellness_right_wrap .title p {
+        display:none;
+    }
+
+
+
+    .wellness_right_wrap .title h1 {
+        font-size: 35px;
+    }
+
+
+
+    /* attractions */
+    .att_wrap .title {
+        width: 100%;
+        padding: 4vh 0;
+        text-align: center;
+    }
+
+    .att_wrap .title h4 {
+        font-size: 30px;
+        margin-top:10vh;
+    }
+
+    
+
+    .att_wrap .title p{
+        display:none;
+    }
+
+
+
+    .att_wrap .place ul li {
+        width: 100%;
+        position: relative;
+        cursor: pointer;
+        margin: 3vh 0;
+    }
+
+
+
+
+    /* cate */
+    .cate_wrap_box span {
+        display: block;
+        font-size: 25px;
+        font-weight: 400;
+        padding: 3vh 0;
+    }
+
+
+
+    .cate_wrap_box p {
+        width:80%;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 13px;
+    }
+
+
+ 
+
+
+
+ 
+
+}
