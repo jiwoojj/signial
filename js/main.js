@@ -20,20 +20,15 @@ jQuery(document).ready(function(){
 
       
   $(".gnb").css("display", "none");
-  $(".fa-xmark").css("display", "none");
 
 
   $(".fa-bars").on('click', function (event) {
     $(".gnb").stop().slideDown(300);
-    $(".fa-bars").css("display", "none");
-    $(".fa-xmark").css("display", "block");
 
   });
 
   $(".fa-xmark").on('click', function (event) {
     $(".gnb").stop().slideUp(300);
-    $(".fa-xmark").css("display", "none");
-    $(".fa-bars").css("display", "block");
 
   });
 
