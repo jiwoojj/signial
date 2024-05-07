@@ -1,18 +1,18 @@
+@charset "utf-8";
+
+
+
+
+
 
 /* 작은 데스크탑 크기 */
-@media screen and (max-width:1280px){
+@media screen and (max-width:1280px) {
 
-    .navbar_logo img{
-        width:70%;
-        margin:0 auto;
-     
-     }
+    .navbar_logo img {
+        width: 70%;
+        margin: 0 auto;
 
-    
-
-     
-
-
+    }
 
 }
 
@@ -20,24 +20,24 @@
 
 
 /* 큰 태블릿 크기 */
-@media screen and (max-width:1028px){
+@media screen and (max-width:1028px) {
 
 
 
-    .navbar_logo img{
-        width:80%;
-        margin:0 auto;
-     
-     }
+    .navbar_logo img {
+        width: 80%;
+        margin: 0 auto;
 
-   .react{
-        display:none;
-   }
-
-   .header_wrap .list li{
-        font-size:18px;
     }
-    
+
+    .react {
+        display: none;
+    }
+
+    .header_wrap .list li {
+        font-size: 18px;
+    }
+
 
 
 
@@ -63,124 +63,106 @@
 
 
 
-    .gnb{
-        width:100%;
-        height:auto;
+    .gnb {
+        width: 100%;
+        height: auto;
     }
 
-    .gnb_wrap{
-        width:100%;
-        height:auto;
-        display:grid;
+    .gnb_wrap {
+        width: 100%;
+        height: auto;
+        display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(4,1fr);
-        margin-top:15vh;
-    
-    }
-
-
-    .gnb_wrap .gnb_box .submenu{
-        display:none;
-        margin-top:0;
-    }
-
-
-
-    .gnb_wrap .gnb_box .menu{
-        width:100%;
-        height:auto;
-        display:block;
-       text-align:center;
-       padding:0;
-    }
-
-
-    .gnb_wrap .gnb_box .menu a{
-        background:none;
-        display:block;
-        padding:0;
-        border-radius:0;
-        border:none;
-        padding:5vh 0;
+        grid-template-rows: repeat(4, 1fr);
+        margin-top: 15vh;
 
     }
 
-    .gnb_wrap .gnb_box .menu a:hover{
-        background:rgba(0,0,0,0.3);
-        border:none;
-        transition:all .2s ease;
-        color:#fff;
+
+    .gnb_wrap .gnb_box .submenu {
+        display: none;
+        margin-top: 0;
     }
 
 
-    .navbar_togglebtn i{
-        position:absolute;
-        line-height:15vh;
-        cursor:pointer;
-        margin:0 auto;
+
+    .gnb_wrap .gnb_box .menu {
+        width: 100%;
+        height: auto;
+        display: block;
+        text-align: center;
+        padding: 0;
     }
-    
 
 
-   
-     
+    .gnb_wrap .gnb_box .menu a {
+        background: none;
+        display: block;
+        padding: 0;
+        border-radius: 0;
+        border: none;
+        padding: 5vh 0;
+
+    }
+
+    .gnb_wrap .gnb_box .menu a:hover {
+        background: rgba(0, 0, 0, 0.3);
+        border: none;
+        transition: all .2s ease;
+        color: #fff;
+    }
 
 
+    .navbar_togglebtn i {
+        position: absolute;
+        line-height: 15vh;
+        cursor: pointer;
+        margin: 0 auto;
+    }
 
 }
 
 
 
 
-@media screen and (max-width:992px){
+@media screen and (max-width:992px) {
 
     .reservation_wrap {
         width: 90%;
     }
-
-
-
-
 
 }
 
 
 
 /* 큰 모바일 크기  */
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
 
 
 
-    .reservation_box{
-        display:none;
-    }
-    
-
-
-    .fa-bars{
-        font-size:20px;
+    .reservation_box {
+        display: none;
     }
 
 
 
-    .header_wrap .list li{
-        font-size:15px;
+    .fa-bars {
+        font-size: 20px;
     }
 
 
 
-    main{
-        width:100%;
-        height:80vh;
-        position:relative;
+    .header_wrap .list li {
+        font-size: 15px;
     }
-    
 
 
 
-  
+    main {
+        width: 100%;
+        height: 80vh;
+        position: relative;
+    }
+
 
 }
-
-
-

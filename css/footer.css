@@ -1,31 +1,34 @@
+@charset "utf-8";
+
+
 
 
 
 
 /* 작은 데스크탑 크기 */
-@media screen and (max-width:1280px){
-   
-    .footer_top_wrap{
-        width:100%;
-        height:auto;
+@media screen and (max-width:1280px) {
+
+    .footer_top_wrap {
+        width: 100%;
+        height: auto;
         font-size: 12px;
-        margin-bottom:3vh;
+        margin-bottom: 3vh;
     }
 
-    .footer_top_top ul{
-        display:flex;
-        width:40%;
+    .footer_top_top ul {
+        display: flex;
+        width: 40%;
         justify-content: space-between;
-        padding:5vh 3vw;
+        padding: 5vh 3vw;
     }
 
 
-    .footer_bt_wrap{
-        border-top:1px solid #fff;
-        text-align:center;
-        padding:2vh 0;
-        font-size:10px;
-        
+    .footer_bt_wrap {
+        border-top: 1px solid #fff;
+        text-align: center;
+        padding: 2vh 0;
+        font-size: 10px;
+
     }
 }
 
@@ -35,27 +38,27 @@
 
 
 /* 큰 태블릿 크기 */
-@media screen and (max-width:1028px){
+@media screen and (max-width:1028px) {
 
 
-    .footer_top_top ul{
-        display:flex;
-        width:50%;
+    .footer_top_top ul {
+        display: flex;
+        width: 50%;
         justify-content: space-between;
-        padding:5vh 3vw;
+        padding: 5vh 3vw;
     }
 
 
-    .footer_top_bt_left ul:nth-child(2){
-        padding:0 3vw;
-        width:80%;
+    .footer_top_bt_left ul:nth-child(2) {
+        padding: 0 3vw;
+        width: 80%;
         justify-content: space-between;
     }
 
 
-    .footer_top_bt_left ul:nth-child(3){
-        padding:2vh 3vw;
-        width:70%;
+    .footer_top_bt_left ul:nth-child(3) {
+        padding: 2vh 3vw;
+        width: 70%;
         justify-content: space-between;
     }
 
@@ -68,89 +71,89 @@
 
 
 /* 큰 모바일 크기  */
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
 
-    .footer_top_top ul{
-        display:flex;
-        width:60%;
+    .footer_top_top ul {
+        display: flex;
+        width: 60%;
         justify-content: space-between;
-        padding:5vh 3vw;
+        padding: 5vh 3vw;
     }
 
 
-    .footer_top_wrap{
-        width:100%;
-        height:auto;
+    .footer_top_wrap {
+        width: 100%;
+        height: auto;
         font-size: 10px;
-        margin-bottom:2vh;
+        margin-bottom: 2vh;
     }
 
 
-    .footer_top_bt{
-        display:flex;
+    .footer_top_bt {
+        display: flex;
         flex-direction: column;
-        width:100%;
+        width: 100%;
     }
 
-    .footer_top_bt_left{
-        width:100%;
+    .footer_top_bt_left {
+        width: 100%;
     }
 
 
 
-    .footer_top_bt_left ul:nth-child(1){
-        width:100%;
+    .footer_top_bt_left ul:nth-child(1) {
+        width: 100%;
         justify-content: space-between;
-        padding:2vh 3vw;
+        padding: 2vh 3vw;
     }
 
 
 
-    .footer_top_bt_left ul:nth-child(2){
-        padding:0 3vw;
-        width:90%;
-        justify-content: space-between;
-    }
-
-    .footer_top_bt_left ul:nth-child(3){
-        padding:2vh 3vw;
-        width:90%;
+    .footer_top_bt_left ul:nth-child(2) {
+        padding: 0 3vw;
+        width: 90%;
         justify-content: space-between;
     }
 
-
-
-    .footer_top_bt_right{
-        width:100%;
-        display:flex;
-        flex-direction:row;
+    .footer_top_bt_left ul:nth-child(3) {
+        padding: 2vh 3vw;
+        width: 90%;
         justify-content: space-between;
     }
 
 
 
-    .footer_top_bt_right ul:nth-child(1) li{
-        display:inline;
-        padding:0 3vw;
+    .footer_top_bt_right {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
 
 
-    .footer_top_bt_right .icons{
-        display:flex;
-        padding-right:12vw;
+    .footer_top_bt_right ul:nth-child(1) li {
+        display: inline;
+        padding: 0 3vw;
+    }
+
+
+
+    .footer_top_bt_right .icons {
+        display: flex;
+        padding-right: 12vw;
 
 
     }
 
 
 
-    .footer_bt_wrap{
-        border-top:1px solid #fff;
-        text-align:center;
-        padding:2vh 0;
+    .footer_bt_wrap {
+        border-top: 1px solid #fff;
+        text-align: center;
+        padding: 2vh 0;
         font-size: calc(0.56vw + 5px);
-        
+
     }
 
 }
